@@ -9,7 +9,6 @@ int main()
 	if(m<=12){
 	printf("Enter number of day: " );
 	scanf("%d",&d);
-	
 	switch (m){
 case 1:
 		if(d>=1 && d<=20)
@@ -21,7 +20,6 @@ case 1:
 			printf("Aquarius");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 2:
 		if(d>=1 && d<=19)
@@ -33,7 +31,6 @@ case 2:
 			printf("pisces");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 3:
 		if(d>=1 && d<=21)
@@ -45,7 +42,6 @@ case 3:
 			printf("Aries");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 4:
 		if(d>=1 && d<=20)
@@ -57,7 +53,6 @@ case 4:
 			printf("Taurus");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 5:
 		if(d>=1 && d<=20)
@@ -69,7 +64,6 @@ case 5:
 			printf("Gemini");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 6:
 		if(d>=1 && d<=20)
@@ -81,7 +75,6 @@ case 6:
 			printf("Cancer");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 7:
 		if(d>=1 && d<=21)
@@ -93,7 +86,6 @@ case 7:
 			printf("Leo");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 8:
 		if(d>=1 && d<=22)
@@ -105,7 +97,6 @@ case 8:
 			printf("Virgo");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 9:
 		if(d>=1 && d<=22)
@@ -117,7 +108,6 @@ case 9:
 			printf("Libra");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 10:
 		if(d>=1 && d<=22)
@@ -129,7 +119,6 @@ case 10:
 			printf("Scorpion");
 		}
 		else printf("Wrong input");
-		
 		break;
 case 11:
 		if(d>=1 && d<=21)
@@ -141,7 +130,6 @@ case 11:
 			printf("Sagitarius");
 		}
 		else printf("Wrong input");
-		
 		break;																				
 case 12:
 		if(d>=1 && d<=21)
@@ -153,7 +141,6 @@ case 12:
 			printf("Aquarius");
 		}
 		else printf("Wrong input");
-		
 		break;
 }	
 }
@@ -161,5 +148,3 @@ case 12:
 			printf("wrong input! ");
 		}	
 }
-
-

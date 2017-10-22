@@ -61,7 +61,7 @@ int min; 				//min
 			seven++;
 		}
 	}
-	printf("\n Delitelne 7 is :%d",seven);
+	printf("\n Delitelne 7 :%d",seven);
 	
 	int palindrom4=0;
 	int a,b,c,d;

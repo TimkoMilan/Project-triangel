@@ -13,6 +13,5 @@ int main()
  			spz[3]=rand()%26+65;
 			spz[4]=rand()%26+65;
  	spz[5]='\0';
- 	printf("%s",spz);
- 			
+ 	printf("%s",spz);			
 }
